@@ -1,0 +1,76 @@
+:root {
+    --blue-default: #0d8cdb;
+    --blue-shadow: #0d8cdb33;
+}
+
+main section {
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid var(--blue-default);
+    border-radius: 20px;
+}
+
+a.externo::after {
+    content: '\00A0\1F517';
+    font-size: .8em;
+}
+
+.project-image {
+    display: block;
+    margin: 20px auto 20px auto;
+}
+
+div.image {
+    height: 100px;
+    width: 200px;
+    padding: 10px;
+    margin: 20px auto 20px auto;
+    background-color: gray;
+    border-radius: 5%;
+}
+
+div.goal {
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 9px 0px var(--blue-shadow);
+}
+
+div.techs-acess {
+    margin: 20px 10px;
+}
+
+div.techs-acess > p {
+    text-indent: 0px;
+}
+
+p > a {
+    text-decoration: none;
+    color: var(--blue-default);
+}
+
+p > a:hover {
+    text-decoration: underline;
+}
+
+p.link-to-acess {
+    text-align: center;
+}
+
+section > div.goal {
+    display: none;
+}
+
+section:hover > div.goal {
+    display: block;
+}
+
+section > div.techs-acess {
+    display: none;
+}
+
+section:hover > div.techs-acess {
+    display: block;
+}
