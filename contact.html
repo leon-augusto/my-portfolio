@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <nav class="container">
+        <ul>
+            <li>
+                <a href="index.html">About Me</a>
+            </li>
+            <li>
+                <a href="projects.html">Projects</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <header class="center">
+        <h1>Contact me</h1>
+    </header>
+
+    <main>
+        <form action="https://formsubmit.co/5cc0d617ab579efe73ff5c31b445f9e1"  method="POST">
+            <label for="email">Your E-mail:</label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="message">Message:</label>
+            <textarea rows="6" name="message" id="message" required></textarea>
+
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
+
+            <button type="submit">Send</button>
+        </form>
+    </main>
+
+    <footer class="container">
+        <a href="https://github.com/leon-augusto" target="_blank" rel="noopener noreferrer">
+            <img src="./img/github.svg" alt="GitHub Logo">
+            <p>GitHub</p>
+        </a>
+        <a href="https://www.linkedin.com/in/leon-augusto-0184a120a" target="_blank" rel="noopener noreferrer">
+            <img src="./img/linkedin.svg" alt="LinkedIn Logo">
+            <p>LinkedIn</p>
+        </a>
+        <a href="https://www.instagram.com/dev_leon" target="_blank" rel="noopener noreferrer">
+            <img src="./img/instagram.svg" alt="Instagram Logo">
+            <p>Instagram</p>
+        </a>
+    </footer>
+</body>
+</html>
